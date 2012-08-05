@@ -59,7 +59,7 @@ Antwanfoster::Application.configure do
   config.i18n.fallbacks = true
 
   # Send deprecation notices to registered listeners
-  config.active_support.deprecation = :log
+  config.active_support.deprecation = :notify
 
   config.action_mailer.default_url_options = { :host => 'example.com' }
   # ActionMailer Config
